@@ -92,6 +92,6 @@ if response.status_code == 200:
     print("\n=> Access token: ", response_json["access_token"])
     print("\n=> Refresh token: ", response_json["refresh_token"])
 else:
-    print("\Token request failed with status code: ", response.status_code)
+    print("\nToken request failed with status code: ", response.status_code)
 
 print("\n\nDone!")
