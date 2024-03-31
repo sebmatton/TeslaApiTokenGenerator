@@ -2,6 +2,12 @@
 
 Tesla API Token Generator is a simple command-line tool that facilitates the generation of Tesla API tokens using Tesla's Single Sign-On (SSO) service.
 
+## System configuration
+The follow are assumed to be setup and installed to run the script:
+- Python (v3)
+- The following library (non-standard):
+    - requests
+
 ## How to Run
 
 To use this script, follow these steps:
